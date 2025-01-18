@@ -39,3 +39,7 @@ function editar(id, txt_tarefa){
 function remover(id){
     location.href = 'todas_tarefas.php?acao=remover&id='+id
 }
+
+function check(id){
+    location.href = 'todas_tarefas.php?acao=check&id='+id
+}
