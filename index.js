@@ -35,3 +35,7 @@ function editar(id, txt_tarefa){
     tarefa.innerHTML = '' //limpa o texto da tarefa
     tarefa.insertBefore(form, tarefa[0]) //coloca o formulario dentro da div
 }
+
+function remover(id){
+    location.href = 'todas_tarefas.php?acao=remover&id='+id
+}
