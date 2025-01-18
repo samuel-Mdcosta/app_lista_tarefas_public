@@ -2,7 +2,7 @@ function editar(id, txt_tarefa){
 					
     //formulario de edicao
     let form = document.createElement('form')
-    form.action = '#'	//action e o destino do formulario
+    form.action = 'tarefa_controler.php?acao=atualizar'	//action e o destino do formulario
     form.method = 'post'	//metodo de envio do formulario
     form.className = 'row'	//classe para estilizar bootstrap ou css
 
